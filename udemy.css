@@ -1,0 +1,780 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Ubuntu:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility class>>>>>>>>>>>>>>> */
+body {
+    font-weight: 'Roboto';
+}
+
+:root {
+    --primary-header-text-color: #eceb98;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+a:hover {
+    color: rgba(135, 14, 241, 0.897);
+}
+
+h2 {
+    font-size: 2rem;
+
+}
+
+li {
+    list-style-type: none;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+.container {
+    max-width: 90%;
+    margin-inline: auto;
+    padding: 20px;
+
+}
+
+/* nav menu here>>>>>>>>>>>>>> */
+
+.navbar {
+    max-width: 1480px;
+    margin-inline: auto;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 15px 15px -20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav {
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+li img {
+    width: 15px;
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.style-input {
+    width: 100%;
+    border-radius: 26px;
+    padding: 15px 40px;
+    border: 1px solid black;
+}
+
+.li {
+    width: 40%;
+    position: relative;
+}
+
+.button-style {
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+
+.language-i {
+    border: 1px solid black;
+    padding: 10px 10px;
+}
+
+.sign-up {
+    background-color: black;
+    color: white;
+}
+
+/* nav section end here>>>>>>>>>>>>>> */
+/* main section starts */
+.front-image img {
+    width: 100%;
+}
+
+.front-image {
+    position: relative;
+}
+
+.front-message {
+    max-width: 442px;
+    text-align: justify;
+    padding: 20px 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    background-color: white;
+}
+
+.front-message p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.section02 p {
+    margin-top: 20px;
+}
+
+.course-section {
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.course-section a {
+    color: rgba(0, 0, 0, 0.709);
+    font-size: 20px;
+}
+
+.course-section a:hover {
+    color: black;
+}
+
+.python {
+    font-weight: 800;
+}
+
+.ptag {
+    font-size: 16px;
+}
+
+/* section03 from here>>>>>>>>> */
+.section03 {
+    width: 100%;
+    padding: 20px 30px;
+    border: 1px solid black;
+}
+
+.section03 p {
+    width: 70%;
+    line-height: 25px;
+}
+
+.course1 {
+    max-width: 226px;
+    cursor: pointer;
+
+}
+
+.course1 a:hover {
+    color: rgb(113, 109, 109);
+
+}
+
+.course1 h3 {
+    font-size: 16px;
+
+}
+
+.course1 p {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.course1 i {
+    font-size: 15px;
+    padding-inline: 2px;
+    color: #b4690e;
+
+}
+
+.prizing {
+    text-decoration: line-through;
+}
+
+.course-buy-section {
+    margin-top: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    max-width: max-content;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    color: gray !important;
+}
+
+.bestseller {
+    padding: 0px 12px;
+    background-color: #eceb98;
+}
+
+.section04 {
+    margin-top: 100px;
+}
+
+.for-media-query {
+    display: none;
+}
+
+.greater-then {
+    display: none;
+}
+
+.less-then {
+    display: none;
+}
+
+/* feature section >>>>>>>>> */
+.background-color {
+    background-color: #cddcf2;
+}
+
+.feature-section a {
+    text-decoration: underline;
+    font-size: 20px;
+    color: #5624d0;
+    font-weight: 600;
+
+}
+
+.feature-section li {
+    padding-top: 30px;
+}
+
+.feature-section p {
+    font-size: 16px;
+}
+
+.feature-section h3 {
+    padding-top: 25px;
+    font-size: 25px;
+}
+
+.feature {
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.for-center {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.company-logo img {
+    width: 100px;
+}
+
+.company {
+    justify-content: space-between;
+
+}
+
+.min-logo img {
+    width: 50px;
+}
+
+.left-text-section {
+    width: 35%;
+}
+
+.right-image-section {
+    width: 45%;
+}
+
+.left-text-section h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.left-text-section li {
+    list-style-type: disc;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.left-text-section .flex {
+    gap: 20px;
+}
+
+.Bussiness {
+    justify-content: center;
+    gap: 5%;
+}
+
+.left-text-section img {
+    width: 300px;
+}
+
+.right-image-section img {
+    width: 400px;
+
+}
+
+.color {
+    color: white;
+    background-color: black;
+}
+
+.bar {
+    display: none;
+}
+
+/* footer section from here */
+footer {
+    width: 100%;
+    background-color: black;
+    padding-bottom: 50px;
+    margin-top: 80px;
+
+}
+
+.footer .flex {
+    justify-content: space-between;
+}
+
+.footer a {
+    color: white;
+    font-size: 16px;
+
+}
+
+.footer .left-footer {
+    gap: 150px;
+}
+
+.footer li {
+    padding-top: 10px;
+}
+
+.right-footer a {
+    border: 2px solid white;
+}
+
+.right-footer i {
+    padding-right: 10px;
+}
+
+.left-footer a:hover {
+    color: #cddcf2;
+    text-decoration: underline;
+}
+
+.sub-footer {
+    background-color: black;
+    color: white;
+
+}
+
+.sub-footer img {
+    width: 100px;
+}
+
+.sub-footer .flex {
+    justify-content: space-between;
+}
+
+.sub-footer p {
+    font-size: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:1100px) and (min-width: 768px) {
+    .media {
+        display: none;
+    }
+
+    .media01 {
+        display: none;
+    }
+
+    .course-buy-section {
+        justify-content: space-around;
+    }
+
+    .feature-section a {
+        font-size: 16px;
+    }
+
+    .left-text-section {
+        width: 100%;
+    }
+
+    .right-image-section {
+        width: 100%;
+    }
+
+    .left-text-section h2 {
+        font-size: 25px;
+    }
+
+    .second {
+        width: 100%;
+    }
+
+    .Bussiness {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Bussiness img {
+        width: 100%;
+    }
+
+    .footer .left-footer {
+        gap: 60px;
+    }
+
+
+}
+
+@media screen and (max-width:767px) and (min-width: 400px) {
+    .media {
+        display: none;
+    }
+
+    .media01 {
+        display: none;
+    }
+
+    .course-buy-section {
+        justify-content: space-around;
+    }
+
+    .feature-section a {
+        font-size: 16px;
+    }
+
+    .left-text-section {
+        width: 100%;
+    }
+
+    .right-image-section {
+        width: 100%;
+    }
+
+    .left-text-section h2 {
+        font-size: 25px;
+    }
+
+    .second {
+        width: 100%;
+    }
+
+    .Bussiness {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Bussiness img {
+        width: 100%;
+    }
+
+    .footer .left-footer {
+        gap: 60px;
+    }
+
+    .front-message {
+        display: none;
+    }
+
+    .button-style {
+        display: none;
+    }
+
+    .cat {
+        display: none;
+    }
+
+    .li {
+        display: none;
+    }
+
+    .media02,
+    .media03 {
+        display: none;
+    }
+
+    .hidden {
+        display: flex;
+        gap: 20px;
+        padding-right: 20px;
+    }
+
+    .hidden img {
+        width: 20px;
+    }
+
+    .bar {
+        padding-left: 20px;
+        display: block;
+    }
+
+    .logo {
+        max-width: 100px;
+        margin-inline: auto;
+    }
+
+    .python {
+        display: none;
+    }
+
+    .media001,
+    .media002 {
+        display: none;
+    }
+
+    .company-logo img {
+        width: 30px;
+    }
+
+    .course-section {
+        gap: 20px;
+    }
+
+    .greater-then {
+        display: block;
+    }
+
+    .less-then {
+        display: block;
+    }
+
+    .section04 h2 {
+        font-size: 20px;
+    }
+
+    .feature h3 {
+        font-size: 16px;
+    }
+
+    .feature {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .feature p a {
+        font-size: 15px;
+    }
+
+    .left-text-section .flex {
+        flex-direction: column;
+    }
+
+    .left-text-section .btn {
+        font-size: 18px;
+        min-width: max-content;
+    }
+
+    .footer .left-footer {
+        flex-direction: column;
+        gap: 20px;
+        text-align: justify;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .right-footer {
+        margin-top: 20px;
+    }
+
+
+}
+
+
+@media screen and (max-width:399px) and (min-width: 280px) {
+    .media {
+        display: none;
+    }
+
+    .media01 {
+        display: none;
+    }
+
+    .course-buy-section {
+        justify-content: space-around;
+    }
+
+    .feature-section a {
+        font-size: 16px;
+    }
+
+    .left-text-section {
+        width: 100%;
+    }
+
+    .right-image-section {
+        width: 100%;
+    }
+
+    .left-text-section h2 {
+        font-size: 25px;
+    }
+
+    .second {
+        width: 100%;
+    }
+
+    .Bussiness {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Bussiness img {
+        width: 100%;
+    }
+
+    .footer .left-footer {
+        gap: 60px;
+    }
+
+    .front-message {
+        display: none;
+    }
+
+    .button-style {
+        display: none;
+    }
+
+    .cat {
+        display: none;
+    }
+
+    .li {
+        display: none;
+    }
+
+    .media02,
+    .media03 {
+        display: none;
+    }
+
+    .hidden {
+        display: flex;
+        gap: 20px;
+        padding-right: 20px;
+    }
+
+    .hidden img {
+        width: 20px;
+    }
+
+    .bar {
+        padding-left: 20px;
+        display: block;
+    }
+
+    .logo {
+        max-width: 100px;
+        margin-inline: auto;
+    }
+
+    .python {
+        display: none;
+    }
+
+    .media001,
+    .media002 {
+        display: none;
+    }
+
+    .company-logo img {
+        width: 30px;
+    }
+
+    .course-section {
+        gap: 20px;
+    }
+
+    .greater-then {
+        display: block;
+    }
+
+    .less-then {
+        display: block;
+    }
+
+    .section04 h2 {
+        font-size: 20px;
+    }
+
+    .feature h3 {
+        font-size: 16px;
+    }
+
+    .feature {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .feature p a {
+        font-size: 15px;
+    }
+
+    .left-text-section .flex {
+        flex-direction: column;
+    }
+
+    .left-text-section .btn {
+        font-size: 18px;
+        min-width: max-content;
+    }
+
+    .footer .left-footer {
+        flex-direction: column;
+        gap: 20px;
+        text-align: justify;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .right-footer {
+        margin-top: 20px;
+    }
+    
+    .footer .flex{
+        flex-direction: column;
+    }
+
+    .deepak {
+        display: none;
+    }
+    .course-section{
+        display: none;
+    }
+    .sub-footer img{
+        width: 50px;
+    }
+
+}
